@@ -1,0 +1,11 @@
+.idea
+.virtualenv
+/static
+/media
+settings_local.py
+proj_path
+logs/*
+*.pyc
+/logs
+*.sqlite3
+migrations/
