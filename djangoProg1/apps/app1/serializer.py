@@ -5,5 +5,4 @@ class InterviewSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Interview
-
         fields = ("first_name", "second_name", "email", "text", "date")
