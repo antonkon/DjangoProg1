@@ -1,0 +1,1 @@
+from djangoProg1.apps.app1.models import Interview
