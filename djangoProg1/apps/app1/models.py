@@ -2,10 +2,10 @@ from django.db import models
 
 # Create your models here.
 class Interview(models.Model):
-    first_name = models.CharField(max_length=30, verbose_name="Dirst name")
+    first_name = models.CharField(max_length=30, verbose_name="First name")
     second_name = models.CharField(max_length=30, verbose_name="Second name")
     email = models.EmailField(max_length=30, verbose_name="Email")
-    text = models.CharField(verbose_name="Text interview :")
+    text = models.CharField(max_length=50, verbose_name="Text interview :")
     date = models.DateField(auto_now_add=True, verbose_name="Data")
 
     def __str__(self):
